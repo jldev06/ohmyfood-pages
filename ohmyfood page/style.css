@@ -45,15 +45,16 @@ main {
     font-family: 'Roboto', sans-serif;
 }
 
-.restaurant-image {
+.restaurant-image-container {
     display: flex;
     width: 100%;
     height: 260px;
-    overflow-x: hidden;
 }
 
-.img {
+.restaurant-image {
     display: flex;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 
